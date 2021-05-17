@@ -1,0 +1,7 @@
+---
+version: '2'
+
+services:
+  {{ cookiecutter.repo_name }}:
+    build: .
+    container_name: {{ cookiecutter.repo_name }}
